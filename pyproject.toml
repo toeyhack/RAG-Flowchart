@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "rag-engine"
+version = "0.1.0"
+description = "Multimodal RAG ingestion + processing service"
+authors = ["you <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
